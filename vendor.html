@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMTI Admin template</title>
+
+    <!-- bootstrap 4.3.1 css -->
+    <link rel="stylesheet" href="./assets/bootstrap-4.3.1/css/bootstrap.css">
+
+    <!-- bootstrap 5.1.3 css -->
+    <link rel="stylesheet" href="./assets/bootstrap-5.1.3/css/bootstrap.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.slim.js"></script>
+</head>
+
+<body>
+
+    <!-- start design here -->
+    <div class="container-fluid navbarmenu bg-light">
+        <div class="row flex-nowrap">
+            <div class=" col-auto col-md-4 col-lg-2 min-vh-100 d-flex flex-column justify-content-between bgOfNav">
+                <div class="p-2">
+                    <a href="" class="d-flex text-decoration-none mt-1 align-items-center text-white">
+                        <span class="fs-4 d-sm-inline">
+                            <!-- <img src="./assets/images/CMTI Logo.png" height="40px" width="70px" alt=""> -->
+                            <h1 class="h1 text-center p-1">PTP</h1>
+                        </span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mt-2">
+                        <li class="nav-item py-md-2 py-1">
+                            <a href="./index.html" class="nav-link active text-white bg-black bg-opacity-25">
+                                <i class="fa fs-5 fa-gauge"></i> <span class="fs-5 d-none
+                                 d-sm-inline ps-1">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-item py-md-2 py-1">
+                            <a href="./index.html" class="nav-link text-white">
+                                <i class="fa fs-5 fa-house"></i> <span class=" d-none
+                                 d-sm-inline ps-1">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item py-md-2 py-1">
+                            <a href="./vendor.html" class="nav-link text-white">
+                                <i class="fa fs-5 fa-table-list"></i> <span class=" d-none
+                                 d-sm-inline ps-1">vendor</span>
+                            </a>
+                        </li>
+                        <li class="nav-item py-md-2 py-1">
+                            <a href="./customer.html" class="nav-link text-white">
+                                <i class="fa fs-5 fa-users"></i> <span class=" d-none
+                                 d-sm-inline ps-1">customer</span>
+                            </a>
+                        </li>
+                        <li class="nav-item py-md-2 py-1">
+                            <a href="./profile.html" class="nav-link text-white">
+                                <i class="fa fs-5 fa-users"></i> <span class=" d-none
+                                 d-sm-inline ps-1">Profile</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item py-md-2 py-1">
+                            <a href="./register.html" class="nav-link text-white">
+                                <i class="fa fs-5 fa-smile"></i> <span class=" d-none
+                                 d-sm-inline ps-1">Register</span>
+                            </a>
+                        </li>
+                        <li class="nav-item py-md-2 py-1">
+                            <a href="./Login.html" class="nav-link text-white">
+                                <i class="fa fs-5 fa-clipboard"></i> <span class=" d-none
+                                 d-sm-inline ps-1">Login</span>
+                            </a>
+                        </li>
+                        <li class="nav-item py-md-2 py-1">
+                            <a href="#" class="nav-link text-white">
+                                <i class="fa fs-5 fa-gauge"></i> <span class=" d-none
+                                 d-sm-inline ps-1">Invoices</span>
+                            </a>
+                        </li>
+                        <li class="nav-item py-md-2 py-1">
+                            <a href="#" class="nav-link text-white">
+                                <i class="fa fs-5 fa-table-list"></i> <span class=" d-none
+                                 d-sm-inline ps-1">Notify</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- contents start -->
+            <div class="col mx-md-3 mx-sm-1 mt-2" id="contents">
+                <div class="row g-3">
+                    <div class="col-12  top-head">
+                        <div class="container ">
+                            <h4 class="h3 pt-3 pb-1 text-center text-white">
+                                Proficiency Testing Programme
+                            </h4>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="glass">
+                                <div class="mx-4 mt-3 overflow-hidden">
+                                    <div class="row gx-4">
+                                        <div class="col-auto">
+                                            <div class="user-img position-relative pb-2">
+                                                <img src="./assets/images/user.jpg" width="80" height="80"
+                                                    alt="user-image" class=" border-radius-lg shadow-sm">
+                                            </div>
+                                        </div>
+                                        <div class="col-auto my-auto">
+                                            <div class="h-100">
+                                                <h5 class="mb-1 p-1">
+                                                    <i class="fa-regular fa-user text-black"></i>
+                                                    Aurora
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0 mx-auto mt-3">
+                                            <div class="nav-wrapper position-relative end-0">
+                                                <ul class="nav nav-pills nav-fill p-1 bg-transparent " role="tablist">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link mb-0 px-0 py-1 bg-transparent " href=""
+                                                            aria-selected="false">
+                                                            <i class="fa-regular fa-bell text-black"></i>
+                                                            <span class="ms-1 text-black">Messages</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link mb-0 px-0 py-1 bg-transparent " href=""
+                                                            aria-selected="false">
+                                                            <i class="fa-regular fa-user text-black"></i>
+                                                            <span class="ms-1 text-black">Log Out</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col mx-md-3 mx-sm-1 mt-4" id="contents">
+                        <div class="row ">
+                            <div class="col-12 col-md-8 p-4" style="background: rgba(171, 192, 199, 0.541);">
+                                <h3 class="h3 pb-3">Add Vendor</h3>
+                                <form>
+                                    <div class="mb-3">
+                                      <label class="form-label" for="basic-default-fullname">Full Name</label>
+                                      <input type="text" class="form-control" id="basic-default-fullname" placeholder="John Doe" />
+                                    </div>
+                                    <div class="mb-3">
+                                      <label class="form-label" for="basic-default-company">Company</label>
+                                      <input type="text" class="form-control" id="basic-default-company" placeholder="ACME Inc." />
+                                    </div>
+                                    <div class="mb-3">
+                                      <label class="form-label" for="basic-default-email">Email</label>
+                                      <div class="input-group input-group-merge">
+                                        <input
+                                          type="text"
+                                          id="basic-default-email"
+                                          class="form-control"
+                                          placeholder="john.doe"
+                                          aria-label="john.doe"
+                                          aria-describedby="basic-default-email2"
+                                        />
+                                        <span class="input-group-text" id="basic-default-email2">@example.com</span>
+                                      </div>
+                                     
+                                    </div>
+                                    <div class="mb-3">
+                                      <label class="form-label" for="basic-default-phone">Phone No</label>
+                                      <input
+                                        type="text"
+                                        id="basic-default-phone"
+                                        class="form-control phone-mask"
+                                      />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label" for="basic-default-phone">Service Name</label>
+                                        <input
+                                          type="text"
+                                          id="basic-default-phone"
+                                          class="form-control phone-mask"
+                                        />
+                                      </div>
+                                    <div class="mb-3">
+                                      <label class="form-label" for="basic-default-message">Service Description</label>
+                                      <textarea
+                                        id="basic-default-message"
+                                        class="form-control"
+                                        placeholder="Hi, Do you have a moment to talk Joe?"
+                                      ></textarea>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn btn-primary">Add</button>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 mt-4">
+                        <footer class="footer pt-3  ">
+                            <div class="container-fluid">
+                                <div class="row align-items-center justify-content-lg-between">
+                                    <div class="col-lg-6 mb-lg-0 mb-4">
+                                        made with <i class="fa fa-heart"></i> by Aurora for CMTI
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    </footer>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <!-- end design here -->
+
+        <!-- bootstrap 4.3.1 js -->
+        <script src="./assets/bootstrap-4.3.1/js/bootstrap.js"></script>
+
+        <!-- bootstrap 5.1.3 js -->
+        <script src="./assets/bootstrap-5.1.3/js/bootstrap.js"></script>
+
+        <!-- j query -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+        <!-- custom js -->
+        <script src="./assets/js/sample.js"></script>
+</body>
+
+</html>
